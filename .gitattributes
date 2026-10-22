@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# MATLAB files keep Windows (CRLF) line endings on checkout
+*.m text eol=crlf
